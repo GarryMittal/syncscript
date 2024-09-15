@@ -7,7 +7,7 @@ import { Editor } from "@/components/editor/Editor";
 import Header from "@/components/Header";
 import ActiveCollaborators from "./ActiveCollaborators";
 import { Input } from "./ui/input";
-import { currentUser } from "@clerk/nextjs/server";
+
 import Image from "next/image";
 import { updateDocument } from "@/lib/actions/room.actions";
 import Loader from "./Loader";
